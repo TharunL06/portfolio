@@ -1,7 +1,8 @@
 import React from "react";
 import "./Intro.css";
 import { Link } from "react-scroll"; // link is used to link other page like anchor tag
-import hireme from '../../assets/hireme.png'
+import hireme from '../../assets/hireme.png';
+// import bg from '../../assets/image.png'
 
 const Intro = () => {
   return (
@@ -28,6 +29,7 @@ const Intro = () => {
         </p>
         <Link><button className="btn"><img src={hireme} alt="hire me" className="btnimg" />Hire me</button></Link>
       </div>
+      {/* <img src={bg} alt="profile" className="bg" /> */}
     </section>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import python from "../../assets/python.png";
-import dj2 from "../../assets/dj2.png";
+import django from "../../assets/dj2.png";
 import sql from "../../assets/sql.png";
 
 const Skills = () => {
@@ -28,7 +28,7 @@ const Skills = () => {
       </div>
       <div className="skillbars">
         <div className="skillbar">
-          <img src={dj2} alt="dj2" className="skillbarimg" />
+          <img src={django} alt="dj2" className="skillbarimg" />
           <div className="skillbartext"></div>
           <h2>Django</h2>
           <p>
