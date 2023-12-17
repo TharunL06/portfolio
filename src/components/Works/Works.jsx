@@ -18,7 +18,7 @@ const Works = () => {
         <img src={portfolio3} alt="" className="workimg" />
         <img src={portfolio4} alt="" className="workimg" />
         <img src={portfolio5} alt="" className="workimg" />
-        <img src={portfolio6} alt="" className="workimg" />
+        <img rc={portfolio6} alt="" className="workimg" />
       </div>
       <button className="workbtn">See more</button>
     </section>
