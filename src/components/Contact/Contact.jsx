@@ -16,12 +16,14 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    // console.log(e.target.value)
+    // debugger;
 
     emailjs.sendForm(
-        "service_jokyw8p",
+        "service_uq99etr",
         "template_d5gs289",
         form.current,
-        "9hC_TtA8oKV5kp91l7g7D"
+        "Lr22EN3uG2kkcAU01"
       )
       .then(
         (result) => {
